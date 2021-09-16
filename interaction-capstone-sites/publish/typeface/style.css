@@ -1,0 +1,99 @@
+body {
+    background-color: #FFA500;
+    margin:0;
+}
+
+.letters {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-test {
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  
+
+}
+
+
+/* block + overlay letter properties */
+
+.block {
+    background-color: #C4C4C4;
+    border: solid 1px black;
+   width: 80px;
+   height: 80px;
+    margin: .3rem;
+
+    position: relative;
+
+    color: rgba(0,0,0,0);
+}
+
+.letter-block {
+    background-color: transparent;
+    border: none;
+}
+
+.overlay-letters {
+    position: absolute;
+    z-index:1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#E5E5E5,#99DF27 );
+    border: solid 1px black;
+    border-radius: 500px;
+    filter: drop-shadow(4px 6px 4px rgba(0,0,0,0.7) )
+}
+
+
+/* global component widths + heights */
+
+.double-h {
+    height: 170%;
+}
+
+.double-w {
+    width: 170%;
+}
+
+.triple-h {
+    height: 270%;
+}
+
+.triple-w {
+    width: 270%;
+}
+
+.quad-h{
+    height: 370%;
+}
+
+
+/* individual component transformations */
+
+#b-stem-dot {
+    z-index: 4;
+}
+
+#b-stem-1 {
+    transform: translate(0,-92px);
+    z-index: 3;
+}
+
+#b-stem-2 {
+    transform: translate(0, -135px);
+    z-index: 2;
+}
+
+#b-bottom {
+    transform: translate(-43px, 0);
+}
+
+#b-bowl-2 {
+    transform: translate(0, -43px);
+}
+
+
+
