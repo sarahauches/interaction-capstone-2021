@@ -143,7 +143,7 @@ body {
 
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: .6;
 
     transform: translateX(-1%)
@@ -152,7 +152,7 @@ body {
 
 #info p {
     margin-bottom: 1rem;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
 }
@@ -1086,6 +1086,10 @@ body {
 @media (max-width: 950px) {
     #info {
         width: 300px;
+    }
+    
+    #info p { 
+        font-size: 16px; 
     }
 }
 
