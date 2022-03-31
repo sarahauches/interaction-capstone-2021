@@ -1074,9 +1074,7 @@ body {
         width: 400px;
     }
     
-    #info p { 
-        font-size: 18px; 
-    }
+    
 }
 
 
@@ -1084,12 +1082,17 @@ body {
     #info {
         width: 320px;
     }
+
+    #info p { 
+        font-size: 18px; 
+    }
 }
 
 
 @media (max-width: 950px) {
     #info {
         width: 300px;
+        left: -30vw;
     }
     
    
@@ -1102,6 +1105,7 @@ body {
 
     #info {
         width: 70vw;
+       
     }
     
     #info p { 
